@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Cyntrisec-000000?style=for-the-badge" alt="Cyntrisec" />
 
-### AWS attack-path analysis, confidential computing, and AI agent audit trails.
+### Cryptographic proof for confidential AI inference.
 
 [![Website](https://img.shields.io/badge/cyntrisec.com-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://cyntrisec.com)
 [![X](https://img.shields.io/badge/@cyntrisec-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cyntrisec)
@@ -14,16 +14,16 @@
 
 ### Projects
 
-| | Repository | Description | Stack |
-|---|---|---|---|
-| | **[cyntrisec-cli](https://github.com/cyntrisec/cyntrisec-cli)** | AWS capability graph analysis and attack-path discovery. Scans infrastructure, builds IAM/network graphs, discovers attack paths, and prioritizes fixes by ROI. | `Python` `MCP` |
-| | **[EphemeralML](https://github.com/cyntrisec/EphemeralML)** | Confidential AI inference inside AWS Nitro Enclaves. Prompts and model weights stay encrypted, even if the host is compromised. | `Rust` `TEE` |
-| | **[Clawprint](https://github.com/cyntrisec/clawprint)** | Tamper-evident audit trail for AI agent runs. SHA-256 hash chain ledger with security scanning, web dashboard, and MCP server. | `Rust` `SQLite` |
+| Repository | Description | Stack |
+|---|---|---|
+| **[EphemeralML](https://github.com/cyntrisec/EphemeralML)** | Confidential AI inference with per-request cryptographic receipts. Runs on AWS Nitro Enclaves and GCP Confidential Space (Intel TDX, NVIDIA H100 CC). | `Rust` `TEE` |
+| **[confidential-ml-transport](https://github.com/cyntrisec/confidential-ml-transport)** | Attestation-bound encrypted tensor transport. Binary framing, X25519+ChaCha20Poly1305 AEAD, 3-message attested handshake. | `Rust` `crates.io` |
+| **[confidential-ml-pipeline](https://github.com/cyntrisec/confidential-ml-pipeline)** | Multi-enclave pipeline orchestration for confidential ML inference. | `Rust` `crates.io` |
 
 ---
 
 <div align="center">
 
-**Local-first. Read-only by default. No data leaves your machine.**
+**Your data existed for seconds. Here's the cryptographic proof.**
 
 </div>
