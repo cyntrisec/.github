@@ -1,29 +1,27 @@
-<div align="center">
+# Cyntrisec
 
-<img src="https://img.shields.io/badge/Cyntrisec-000000?style=for-the-badge" alt="Cyntrisec" />
+Cyntrisec builds **EphemeralML**: confidential AI inference with per-request cryptographic receipts.
 
-### Cryptographic proof for confidential AI inference.
+## Start Here
 
-[![Website](https://img.shields.io/badge/cyntrisec.com-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://cyntrisec.com)
-[![X](https://img.shields.io/badge/@cyntrisec-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cyntrisec)
-[![Email](https://img.shields.io/badge/contact@cyntrisec.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@cyntrisec.com)
+### Core Product
 
-</div>
+| Repo | What it does |
+|---|---|
+| [EphemeralML](https://github.com/cyntrisec/EphemeralML) | Confidential AI inference engine with attestation and signed per-request receipts. |
+| [air-v1](https://github.com/cyntrisec/air-v1) | AIR v1 standalone spec workspace (IETF draft source, vectors, interop tooling). |
+| [confidential-ml-transport](https://github.com/cyntrisec/confidential-ml-transport) | Attestation-bound encrypted transport for confidential ML channels. |
+| [confidential-ml-pipeline](https://github.com/cyntrisec/confidential-ml-pipeline) | Multi-stage orchestration for sharded confidential inference pipelines. |
 
----
+### Labs / Tools
 
-### Projects
+| Repo | What it does |
+|---|---|
+| [cyntrisec-cli](https://github.com/cyntrisec/cyntrisec-cli) | AWS capability-graph analysis and attack-path discovery CLI + MCP server. |
+| [clawprint](https://github.com/cyntrisec/clawprint) | Tamper-evident audit trail for AI agent runs. |
 
-| Repository | Description | Stack |
-|---|---|---|
-| **[EphemeralML](https://github.com/cyntrisec/EphemeralML)** | Confidential AI inference with per-request cryptographic receipts. Runs on AWS Nitro Enclaves and GCP Confidential Space (Intel TDX, NVIDIA H100 CC). | `Rust` `TEE` |
-| **[confidential-ml-transport](https://github.com/cyntrisec/confidential-ml-transport)** | Attestation-bound encrypted tensor transport. Binary framing, X25519+ChaCha20Poly1305 AEAD, 3-message attested handshake. | `Rust` `crates.io` |
-| **[confidential-ml-pipeline](https://github.com/cyntrisec/confidential-ml-pipeline)** | Multi-enclave pipeline orchestration for confidential ML inference. | `Rust` `crates.io` |
+## Links
 
----
-
-<div align="center">
-
-**Your data existed for seconds. Here's the cryptographic proof.**
-
-</div>
+- [Website](https://cyntrisec.com)
+- [IETF Draft: AIR v1](https://datatracker.ietf.org/doc/draft-tsyrulnikov-rats-attested-inference-receipt/)
+- [X](https://x.com/cyntrisec)
