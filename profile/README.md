@@ -13,12 +13,12 @@ Cyntrisec builds **EphemeralML**: confidential AI inference with per-request cry
 | [confidential-ml-transport](https://github.com/cyntrisec/confidential-ml-transport) | Attestation-bound encrypted transport for confidential ML channels. |
 | [confidential-ml-pipeline](https://github.com/cyntrisec/confidential-ml-pipeline) | Multi-stage orchestration for sharded confidential inference pipelines. |
 
-### Labs / Tools
+### Historical / Non-Product Repositories
 
 | Repo | What it does |
 |---|---|
-| [cyntrisec-cli](https://github.com/cyntrisec/cyntrisec-cli) | AWS capability-graph analysis and attack-path discovery CLI + MCP server. |
-| [clawprint](https://github.com/cyntrisec/clawprint) | Tamper-evident audit trail for AI agent runs. |
+| [cyntrisec-cli](https://github.com/cyntrisec/cyntrisec-cli) | Historical pre-company AWS analysis CLI. Not a current Cyntrisec product or support surface. |
+| [clawprint](https://github.com/tsyrulb/clawprint) | Archived personal project. Not a Cyntrisec product. Kept only for history. |
 
 ## Links
 
